@@ -16,15 +16,21 @@ const BoxOne = () => {
         رحلة العمر نضمن لك فيها السعادة. نوفر لكم الأسعار المناسبة و الملائمة.
       </p>
       <div className="flex justify-between gap-x-2 md:gap-x-4">
-        <button className="flex gap-[4px] items-center justify-center h-[48px] py-[12px] px-[20px] bg-orange text-white text-[16px] rounded-[8px] hover:shadow">
-          <Image alt="" src="/icons/date.png" height={24} width={24} />
+        <button className="flex gap-[4px] items-center justify-center md:h-[48px] py-[6px] md:py-[12px] px-[10px] md:px-[20px] bg-orange text-white text-[14px] md:text-[16px] rounded-[8px] hover:shadow">
+          <div className="h-[20px] w-[20px] md:h-[24px] md:w-[24px] relative">
+            <Image alt="" src="/icons/date.png" fill />
+          </div>
           <span>شاهد التوفر و الأسعار</span>
         </button>
-        <button className="flex items-center justify-center h-[48px] p-[12px] rounded-[8px] border border-solid border-orange">
-          <Image alt="" src="/icons/save.png" height={24} width={24} />
+        <button className="flex items-center justify-center md:h-[48px] p-[6px] md:p-[12px] rounded-[8px] border border-solid border-orange">
+          <div className="h-[20px] w-[20px] md:h-[24px] md:w-[24px] relative">
+            <Image alt="" src="/icons/save.png" fill />
+          </div>
         </button>
-        <button className="flex items-center justify-center h-[48px] p-[12px] rounded-[8px] border border-solid border-orange">
-          <Image alt="" src="/icons/share.png" height={24} width={24} />
+        <button className="flex items-center justify-center md:h-[48px] p-[6px] md:p-[12px] rounded-[8px] border border-solid border-orange">
+          <div className="h-[20px] w-[20px] md:h-[24px] md:w-[24px] relative">
+            <Image alt="" src="/icons/share.png" fill />
+          </div>
         </button>
       </div>
     </div>

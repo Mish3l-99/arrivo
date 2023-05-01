@@ -83,19 +83,19 @@ const Navbar = () => {
         {/* menu drop */}
         {menuDrop && (
           <div className="mb-3">
-            <div className="flex gap-x-4 md:gap-x-[20px] justify-between items-center md:hidden">
+            <div className="flex gap-x-2 md:gap-x-[20px] justify-between items-center md:hidden">
               <Link href="/contact">
-                <div className="text-[#636973] text-[14px] hover:text-deep ">
+                <div className="text-[#636973] text-[13px] hover:text-deep ">
                   تواصل معنا
                 </div>
               </Link>
               <Link href="/contact">
-                <div className="text-[#636973] text-[14px] hover:text-deep ">
+                <div className="text-[#636973] text-[13px] hover:text-deep ">
                   تسجيل حساب جديد
                 </div>
               </Link>
               <Link href="/contact">
-                <button className="outline-none text-[12px] text-orange py-[10px] px-[20px] border border-orange rounded-[40px] hover:bg-orange hover:text-white duration-300 ease-out">
+                <button className="outline-none text-[12px] text-orange py-[5px] px-[12px] border border-orange rounded-[40px] hover:bg-orange hover:text-white duration-300 ease-out">
                   تسجيل الدخول
                 </button>
               </Link>
@@ -106,10 +106,10 @@ const Navbar = () => {
         {/* search drop */}
         {searchDrop && (
           <div className="mb-3">
-            <div className="flex gap-x-2 items-center h-[48px] bg-white rounded-[40px] border border-[#C8CBD0] py-[10x] px-[10px] sm:pr-[16px] md:hidden">
+            <div className="flex gap-x-2 items-center bg-white rounded-[40px] border border-[#C8CBD0] py-[10x] px-[10px] sm:pr-[16px] md:hidden">
               <input
                 type="text"
-                className="border-0 outline-none bg-transparent flex-1"
+                className="border-0 outline-none bg-transparent flex-1 py-[8px] pr-[6px]"
                 placeholder="إلى أين تريد أن تذهب؟"
               />
               <div className="flex justify-center items-center bg-orange p-[8px] w-[28px] h-[28px] rounded-full">
