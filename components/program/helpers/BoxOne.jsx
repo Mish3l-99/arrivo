@@ -24,7 +24,7 @@ const BoxOne = () => {
         </button>
         <button className="flex items-center justify-center md:h-[48px] p-[6px] md:p-[12px] rounded-[8px] border border-solid border-orange">
           <div className="h-[20px] w-[20px] md:h-[24px] md:w-[24px] relative">
-            <Image alt="" src="/icons/save.png" fill />
+            <Image alt="" src="/icons/save.svg" fill />
           </div>
         </button>
         <button className="flex items-center justify-center md:h-[48px] p-[6px] md:p-[12px] rounded-[8px] border border-solid border-orange">
